@@ -4,7 +4,7 @@
  * @returns: Function return boolean value
  */ 
 const isValidObject = (obj) => {
-  if(obj && obj.constructor.name === 'object') {
+  if(obj && obj.constructor.name === 'Object') {
     return false;
   }
   return true;
@@ -16,7 +16,7 @@ const isValidObject = (obj) => {
  * @returns: Function return boolean value
  */ 
 const isValidString = (para) => {
-  if(para && para.constructor.name === 'object') {
+  if(para && para.constructor.name === 'String') {
     return false;
   }
   return true;
